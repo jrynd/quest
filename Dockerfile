@@ -17,5 +17,7 @@ COPY . .
 COPY ./src ./src
 COPY ./bin ./bin
 
+USER node
+
 EXPOSE 3000
 CMD [ "node", "src/000.js" ]
