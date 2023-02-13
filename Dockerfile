@@ -16,6 +16,7 @@ RUN npm install
 COPY . .
 COPY ./src ./src
 COPY ./bin ./bin
+ENV SECRET_WORD=TwelveFactor
 
 USER node
 
